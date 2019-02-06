@@ -8,6 +8,10 @@ body {
   /* background-color: #F26F92; */
   background-color: #F73D69;
   font-family: 'Questrial', sans-serif;
+  /* background-image: url('images/character.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 500px; */
   /* overflow-x: hidden; */
 }
 
@@ -17,33 +21,35 @@ h1 {
   line-height: 2em;
 }
 
-img {
+
+
+.character {
   margin: auto;
   display: block;
   text-align: center;
   padding-top: 10px;
   width: 20vw;
   /* position: absolute; */
-  top: 500px;
-  left: 500px;
+  top: 100px;
+  left: 450px;
   /* height: 200px; */
 }
 
 #laptop {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
 
 
 }
 #keys {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
 
 }
 #fieldbook {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
 
