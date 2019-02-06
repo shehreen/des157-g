@@ -19,9 +19,8 @@ h1 {
   color:white;
   text-align: center;
   line-height: 2em;
+  font-size: 2.5em;
 }
-
-
 
 .character {
   margin: 15px auto;
@@ -48,18 +47,13 @@ h1 {
 
 }
 #fieldbook {
-  /*z-index: 2;
-  position: absolute;*/
-  top: 10px;
+  z-index: 2;
+  position: absolute;
   left: 400px;
   width: 70px;
-  /*margin-left: calc(50% + 1px);*/
-  /*margin-top: 45px;*/
-    margin: 15px auto;
-
-  
-
-
+  margin-left: calc(50% + 1px);
+  /* margin-top: 45px; */
+  margin: 15px auto;
 
 }
 
@@ -103,6 +97,6 @@ footer a:hover {
 
 @media only screen and (min-width: 769px) {
    .character {
-     background-image: 
+     background-image:
    }
 }
