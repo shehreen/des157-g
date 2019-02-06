@@ -1,0 +1,92 @@
+/* comment here about design choices */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #F26F92; */
+  background-color: #F73D69;
+  font-family: 'Questrial', sans-serif;
+  /* overflow-x: hidden; */
+}
+
+h1 {
+  color:white;
+  text-align: center;
+  line-height: 2em;
+}
+
+img {
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  width: 20vw;
+  /* position: absolute; */
+  top: 500px;
+  left: 500px;
+  /* height: 200px; */
+}
+
+#laptop {
+  position: relative;
+  top: 0;
+  left: 0;
+
+
+}
+#keys {
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+#fieldbook {
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+.items {
+  width: 100px;
+  /* display: none; */
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+/*Hover over items to make them highlight and indicate that it is clickable*/
+
+img:hover {
+}
+
+/* fix footer to bottom of page*/
+footer {
+  background-color: black;
+  color: white;
+  margin: auto;
+  font-size: 14px;
+  padding: 20px 30px 5px 30px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #ff0000;
+}
+
+/* below 769px change change graphics to only pictures of items*/
+
+@media only screen and (min-width: 769px) {
+   .container
+}
