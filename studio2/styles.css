@@ -94,5 +94,7 @@ footer a:hover {
 /* below 769px change change graphics to only pictures of items*/
 
 @media only screen and (min-width: 769px) {
-   .container
+   .character {
+     background-image: 
+   }
 }
