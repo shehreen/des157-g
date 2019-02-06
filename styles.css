@@ -21,8 +21,8 @@ header {
 }
 
 body {
-  overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
   font-family: 'Questrial', sans-serif;
   max-width: 1366px;
   margin-left: auto;
@@ -36,7 +36,8 @@ body {
   grid-gap: 50px;
   background-color: white;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
+
 }
 
 h2 {
@@ -77,6 +78,7 @@ footer {
   background-color: black;
   color: white;
   margin: auto;
+  margin-top:36px;
   font-size: 14px;
   padding: 20px 30px 5px 30px;
   text-align: center;
