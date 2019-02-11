@@ -9,8 +9,7 @@ console.log('reading.js');
 var headerText = 'don&#8242t touch my stuff';
 
 function headerSwap(){
-  document.getElementById('#header1');
-  h1 =
+  document.querySelector('#header1').innerHTML = "seriously";
 
 }
 
