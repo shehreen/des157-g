@@ -45,6 +45,17 @@ h1 {
   left: 450px; */
 }
 
+#fire {
+  display: block;
+  text-align: center;
+  width: 40vw;
+  z-index: 1;
+  position: absolute;
+  top:50px;
+  left:60px;
+  display: none;
+}
+
 #laptop {
   /* background-color: blue; */
   position: absolute;
@@ -117,6 +128,18 @@ background-color: #008CBA; */
   color: red;
 }
 
+/* Overlay effects */
+
+#overlay {
+  background-color: #000;
+  color: deeppink;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
 
 
 /* fix footer to bottom of page*/
