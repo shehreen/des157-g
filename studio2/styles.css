@@ -22,53 +22,102 @@ h1 {
   font-size: 2.5em;
 }
 
-.character {
+#characterContainer{
+  position:relative;
+  background-color: purple;
+  width:50%;
+  margin:auto;
+}
+
+.items img{
+  position:absolute;
+  width: 100px;
+}
+
+#character {
   margin: 15px auto;
   display: block;
   text-align: center;
-  width:175px;
-  /*padding-top: 10px;*/
-  /*width: 20vw;*/
+  width: 20vw;
+  /* width:175px;
+  padding-top: 10px;
   top: 100px;
-  left: 450px;
+  left: 450px; */
 }
 
 #laptop {
+  /* background-color: blue; */
   position: absolute;
-  top: 0;
-  left: 0;
-
+  top:267px;
+  left:232px;
+  z-index: 2;
+  width: 125px;
+  opacity: 0;
 }
 
 #keys {
   position: absolute;
-  top: 0;
-  left: 0;
+  /* background-color: red; */
+  top:417px;
+  left:263px;
+  z-index: 2;
+  width: 65px;
+  opacity: 0;
 
 }
 #fieldbook {
-  z-index: 2;
+  /* background-color: red; */
   position: absolute;
-  left: 400px;
-  width: 70px;
-  margin-left: calc(50% + 1px);
+  top:285px;
+  left:318px;
+  z-index: 2;
+  width: 92px;
+  transform: rotate(0deg);
+  /* margin-left: calc(50% + 1px); */
   /* margin-top: 45px; */
-  margin: 15px auto;
+  /* margin: 15px auto; */
+  opacity: 0;
 
-}
-
-.items {
-  width: 100px;
-  /* display: none; */
-  position: relative;
-  top: 0;
-  left: 0;
 }
 
 /*Hover over items to make them highlight and indicate that it is clickable*/
 
-img:hover {
+/* img #laptop:hover {
+  color: black;
+  background-color: black;
+} */
+
+/* position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #008CBA; */
+
+#laptopButton img:hover {
+  opacity: .7;
+  transition: .5s ease;
+  color: red;
 }
+
+
+#fieldbookButton img:hover {
+  opacity: .7;
+  transition: .5s ease;
+  color: red;
+}
+
+#keysButton img:hover {
+  opacity: .7;
+  transition: .5s ease;
+  color: red;
+}
+
+
 
 /* fix footer to bottom of page*/
 footer {
