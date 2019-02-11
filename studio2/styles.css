@@ -220,6 +220,7 @@ footer a:hover {
    #character {
      display: none;
    }
+
    #laptop {
      /* position: absolute; */
      /* top:267px;
@@ -243,7 +244,7 @@ footer a:hover {
      opacity: 1;
      position: fixed;
     top: 60%;
-    left: 40%;
+    left: 45%;
     /* bring your own prefixes */
     /* transform: translate(-50%, -50%); */
    }
@@ -256,11 +257,16 @@ footer a:hover {
      width: 90px;
      opacity: 1;
      position: fixed;
-    top: 30%;
+    top: 40%;
     left: 50%;
     /* bring your own prefixes */
     /* transform: translate(-50%, -50%); */
    }
+
+
+  #fieldbook img {
+    background: url('images/mobilefieldbook.svg');
+  }
 
    #laptopButton img:hover {
      /* position: absolute; */
