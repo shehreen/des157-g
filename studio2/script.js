@@ -29,8 +29,39 @@ function headerSwap(){
     fire.style.display="none";
   }
 
-
 }
+
+var laptop = document.querySelector('laptopButton');
+var keys = document.querySelector('keysButton');
+var fieldbook = document.querySelector('fieldbookButton');
+var close = document.querySelector('close');
+var popUp = document.querySelector('.popUp');
+var header2 = document.querySelector('h2');
+var text = document.querySelector('p');
+var close = document.querySelector('.close');
+
+laptopButton.addEventListener('click', function() {
+  popUp.style.display = 'block';
+  header2.innerHTML = 'What do you call a laptop that sings?';
+  text.innerHTML = 'A Dell.';
+  });
+
+keysButton.addEventListener('click', function() {
+  popUp.style.display = 'block';
+  header2.innerHTML = 'I love the smell of my F5 key.';
+  text.innerHTML = ' It’s very refreshing.';
+  });
+
+fieldbookButton.addEventListener('click', function() {
+  popUp.style.display = 'block';
+  header2.innerHTML = 'Yeah, I wasn\'t able to make reservations at the libary' ;
+  text.innerHTML = 'They\'re completely booked.';
+  });
+
+close.addEventListener('click', function() {
+popUp.style.display = 'none';
+});
+
 
 //document.querySelector('#header1').innerHTML = "seriously";
 
