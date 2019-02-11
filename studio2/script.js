@@ -58,6 +58,14 @@ fieldbookButton.addEventListener('click', function() {
   text.innerHTML = 'They\'re completely booked.';
   });
 
+//i tried to substitute the fieldbook picture for mobile view but failed
+
+// window.matchMedia('(max-width: 769px)')
+// .addEventListener(function(){
+//   var mobilefieldbook = document.querySelector('#fieldbook');
+//   mobilefieldbook.src = 'images/mobilefieldbook.svg';
+// })
+
 close.addEventListener('click', function() {
 popUp.style.display = 'none';
 });
