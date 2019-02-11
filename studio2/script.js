@@ -4,6 +4,8 @@ console.log('reading.js');
 
 /*click to show the corny jokes via overlay and then click again to close*/
 
+
+
 function headerSwap(){
   // console.log("Character clicked");
   var headerTexts = document.getElementById('header1');
@@ -17,11 +19,11 @@ function headerSwap(){
     header1.innerHTML = "bitch";
     character.src = 'images/charactersad.svg'
   } else if ( header1.innerHTML == "bitch") {
-    header1.innerHTML = "@#@$#%#%";
+    header1.innerHTML = "@#!@$#%#%";
     character.src = 'images/charactersad.svg';
     fire.style.display="block";
 
-  } else if (header1.innerHTML == "@#@$#%#%") {
+  } else if (header1.innerHTML == "@#!@$#%#%") {
     header1.innerHTML =  "don't touch my stuff";
     character.src = 'images/character.svg'
     fire.style.display="none";
