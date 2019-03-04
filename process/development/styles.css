@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+  font-family: 'Questrial', sans-serif;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  text-align: center;
+}
