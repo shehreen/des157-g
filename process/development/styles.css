@@ -22,10 +22,14 @@ img {
   padding-left: 40px;
 }
 
+img.wireframe {
+  width: 40%;
+}
+
 p.content {
   display: block;
   position: absolute;
-  left: 900px;
+  left: 850px;
   bottom: 300px;
   padding: 30px;
 }
