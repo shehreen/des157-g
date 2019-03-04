@@ -46,6 +46,13 @@ p.prototypecontent {
   padding: 30px;
 }
 
+/*----Interactive wireframe -----*/
+
+body.wireframebody {
+  background-color: pink;
+}
+
+
 footer {
   background-color: black;
   color: white;
