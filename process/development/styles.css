@@ -11,6 +11,45 @@ body {
   margin-right: auto;
 }
 
+h1 {
+  text-align: center;
+}
+
 img {
   text-align: center;
+  position: relative;
+  border: 20px;
+  padding-left: 40px;
+}
+
+p.content {
+  display: block;
+  position: absolute;
+  left: 900px;
+  bottom: 300px;
+  padding: 30px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin: auto;
+  /* margin-top:36px; */
+  font-size: 10px;
+  /* padding: 20px 30px 5px 30px; */
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #ff0000;
 }
