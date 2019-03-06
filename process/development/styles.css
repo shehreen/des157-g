@@ -46,6 +46,20 @@ p.prototypecontent {
   padding: 30px;
 }
 
+div#comps {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+div#comp1 {
+  width: 40%
+}
+div#comp2 {
+  width: 80%
+}
+
 /*----Interactive wireframe -----*/
 
 body.wireframebody {
