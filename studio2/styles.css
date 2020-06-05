@@ -109,7 +109,7 @@ opacity: 0;
 transition: .5s ease;
 background-color: #008CBA; */
 
-#laptopButton img:hover {
+.laptopButton img:hover {
   /* position: absolute;
   top:267px;
   left:232px; */
@@ -119,13 +119,13 @@ background-color: #008CBA; */
 }
 
 
-#fieldbookButton img:hover {
+.fieldbookButton img:hover {
   opacity: .7;
   transition: .5s ease;
   color: red;
 }
 
-#keysButton img:hover {
+.keysButton img:hover {
   opacity: .7;
   transition: .5s ease;
   color: red;
