@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Studio 1: Madlibs</title>
-    <link href="https://fonts.googleapis.com/css?family=Paytone+One%7CQuestrial" rel="stylesheet">
+    <title>Studio 1: Defund the Pol-ibs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Questrial&display=swap" rel="stylesheet">
     <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
     <link href="style.css" rel = "stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
@@ -13,23 +13,29 @@
 </head>
 <body>
     
-    <h1>Mad Lib Title</h1>
-    <p>Add interesting graphics. Perhaps a background image for the page. Add nice typography, colors, etc.</p>
-    <form id="myform">
-   
-            <input type="text" placeholder="noun" id="noun1">
-            <input type="text" placeholder="noun" id="noun2">
-            <input type="text" placeholder="adjective" id="adjective">
-            <input type="text" placeholder="verb" id="verb">
+    <h1>Defund the Po-libs</h1>
+    <form id="myform" class ="form">
 
-            <input type="submit" value="See Mad Lib!">
+            
+            <label for="color1">Pick a Color</label><input type="text" placeholder="color" id="color1"> 
+            <label for="state">Pick a State</label><input type="text" placeholder="state" id="state">
+            <label for="swear word">Pick a Swear Word</label><input type="text" placeholder="swear" id="swear">
+            <label for="profession">Pick a Profession</label><input type="text" placeholder="profession" id="profession">
+
+            <input type="submit" value="Get Learnt">
 
     </form>
 
     <div class="invisible" id="madlib">
-        <p>Madlib will go here! The class is set initially to invisible, which is set in the styles above to display: none. When the mad lib is submitted, this class is swapped. You could change the styling a lot. Add a css transition to have the mad lib fade in, or fly in or have some other effect.
+        <p>Madlib will go here!
         </p>
     </div>
+
+    <footer>
+        <p><a href="mailto:&#115;&#104;&#117;&#115;&#097;&#105;&#110;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">Email </a></p>
+        <p><a href="https://validator.w3.org/check?uri=referer">Valid HTML 5  </a></p>
+        <p><a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a></p>
+    </footer>    
     
     <script src="script.js"></script>
 
