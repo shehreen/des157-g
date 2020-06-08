@@ -93,10 +93,10 @@ h1 {
 
 /*Hover over items to make them highlight and indicate that it is clickable*/
 
-/* img #laptop:hover {
+img #laptop:hover {
   color: black;
   background-color: black;
-} */
+}
 
 /* position: absolute;
 top: 0;

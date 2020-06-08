@@ -16,16 +16,26 @@ body {
   height:100px; */
 }
 
+#madlib {
+  /* position: relative; */
+}
 
+label {
+  padding-right: 20px;
+}
 
-input {display:block; 
-  clear:right; 
+input {
+  /* display:block;  */
+  /* clear:right;  */
   margin-bottom: 20px;
   text-align:center;}
   
   .form {
-    float: left;
-    display:inline-block;
+    width: 350px;
+    margin: auto;
+    text-align: right;
+    /* float: left; */
+    /* display:inline-block; */
   }
 .invisible { display: none;}
 .visible {
@@ -48,6 +58,15 @@ input {display:block;
 .visible:hover {
   background-color: black;
 }
+
+#leftimage {
+  position: absolute;
+  left: -200px;
+  top: 200px;
+  width: 200px;
+}
+
+
 
 /* fix footer to bottom of page*/
 footer {
