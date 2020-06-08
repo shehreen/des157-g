@@ -1,54 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Studio 1: Madlibs</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Paytone+One%7CQuestrial" rel="stylesheet">
-  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
-  <link href="style.css" rel = "stylesheet" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Studio 1: Madlibs</title>
+    <link href="https://fonts.googleapis.com/css?family=Paytone+One%7CQuestrial" rel="stylesheet">
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
+    <link href="style.css" rel = "stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+
 </head>
-
 <body>
-  <header>
-  <h1>Forgot about Madlibs (ft. Dr Dre)</h1>
-  </header>
-  <form>
-    <fieldset>
-      <label for="action1">Choose an action (e.g. talk): </label><input type="text" name="action1" id="action1" required>
-    </fieldset>
-    <fieldset>
-      <label for="action2">Choose another action: </label><input type="text" name="action2" id="action2" required>
-    </fieldset>
-    <fieldset>
-      <label for="badword">Choose a bad word: </label><input type="text" name="badword" id="badword" required>
-    </fieldset>
-    <fieldset>
-      <label for="bodypart">Choose a body part: </label><input type="text" name="bodypart" id="bodypart" required>
-    </fieldset>
-    <fieldset>
-      <label for="rhyme">Choose one of the rhyming words: </label><input type="text" name="rhyme" id="rhyme" required>
-    </fieldset>
+    
+    <h1>Mad Lib Title</h1>
+    <p>Add interesting graphics. Perhaps a background image for the page. Add nice typography, colors, etc.</p>
+    <form id="myform">
+   
+            <input type="text" placeholder="noun" id="noun1">
+            <input type="text" placeholder="noun" id="noun2">
+            <input type="text" placeholder="adjective" id="adjective">
+            <input type="text" placeholder="verb" id="verb">
 
+            <input type="submit" value="See Mad Lib!">
 
-    <input type="submit" value="submit" id="submit">
-    <input type="reset" value="reset" id="reset">
-  </form>
+    </form>
 
-  <!-- display rap -->
-  <!-- nowadays everybody wanna talk<br> like they got somethin to say<br> but nothin comes out<br> when they move their lips<br> its just a bunch of gibberish<br> and motherfuckers act<br> like they forgot about dre. -->
+    <div class="invisible" id="madlib">
+        <p>Madlib will go here! The class is set initially to invisible, which is set in the styles above to display: none. When the mad lib is submitted, this class is swapped. You could change the styling a lot. Add a css transition to have the mad lib fade in, or fly in or have some other effect.
+        </p>
+    </div>
+    
+    <script src="script.js"></script>
 
-  <section id="msgSection">
-    <p id="myMsg"></p>
-  </section>
-
-  <footer>
-    <p><a href="mailto:&#115;&#104;&#117;&#115;&#097;&#105;&#110;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">Email </a></p>
-    <p><a href="https://validator.w3.org/check?uri=referer">Valid HTML 5  </a></p>
-    <p><a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a></p>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
+</html>

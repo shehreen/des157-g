@@ -9,3 +9,16 @@ h1 {
 body {
   font-family: Questrial;
 }
+
+input {display: block; margin-bottom: 20px;}
+.invisible { display: none;}
+.visible {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 500px;
+    padding: 20px;
+    color: #fff;
+    background-color: #666;
+}
