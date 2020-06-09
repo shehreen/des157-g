@@ -8,7 +8,7 @@ body {
   /* background-color: #F26F92; */
   background-color: #F73D69;
   font-family: 'Questrial', sans-serif;
-  /* background-image: url('images/BLM-3.jpg');
+  /* 
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 500px; */
@@ -29,7 +29,7 @@ h1 {
   margin:auto;
 }
 
-.items img{
+.items img {
   position:absolute;
   width: 100px;
 }
@@ -98,16 +98,6 @@ img #laptop:hover {
   background-color: black;
 }
 
-/* position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-height: 100%;
-width: 100%;
-opacity: 0;
-transition: .5s ease;
-background-color: #008CBA; */
 
 .laptopButton img:hover {
   /* position: absolute;

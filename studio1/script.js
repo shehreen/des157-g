@@ -31,7 +31,7 @@ document.getElementById("myform").addEventListener("submit", function(event){
 //in the user's words where necessary.
 function makeMadLib(theWords){
     var madlib = `Saying "All Lives Matter" is like saying ${theWords[0]} lives matter. It's unproductive and unncessary, because ${theWords[0]} lives are not under attack. On top of that, the police in ${theWords[1]} are impartial towards people of color due to deep rooted racial bias enabled by centuries of systemic oppression. ${theWords[2]} doesn't even begin to describe the kind of person that abuses the very people they took an oath to protect and serve. Surveys show the average recruit receives only eight hours of de-escalation training. It likely requires much more training time to become a  ${theWords[3]} than a police officer in ${theWords[1]} - just look it up!
-    <img id="leftimage" src ="images/juicy.svg">
+    <img id="leftimage" src ="images/hands.svg">
     `;
 
     //Get the madlib container
