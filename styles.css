@@ -11,6 +11,7 @@ body {
   margin-right: auto;
 }
 
+
 header {
     width: 800px;
   margin-left: auto;
@@ -71,6 +72,38 @@ li a:hover {
   background-color: #ff0000;
   color: white;
 }
+
+/*--- Comparative Analysis ---*/
+
+#comparative img {
+  max-width: 600px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 30px;
+}
+
+#comparative h2 {
+  border: none;
+  font-size: 2em;
+  text-transform: none;
+}
+
+#comparative h1 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 3em;
+  color: palevioletred;
+  
+}
+
+#comparative p {
+  font-size: 1.2em;
+}
+
+#comparative
 
 /*-----FOOTER CONTENT-----*/
 
