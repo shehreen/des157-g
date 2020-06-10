@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="135.049" height="64.032" viewBox="0 0 135.049 64.032">
+  <g id="like_share_buttons" data-name="like &amp; share buttons" transform="translate(-125.2 -527.484)">
+    <path id="Path_79" data-name="Path 79" d="M0,62,.531,29.063,1,0" transform="translate(187.5 528.5)" fill="none" stroke="#ffa700" stroke-linecap="round" stroke-width="2" stroke-dasharray="11"/>
+    <g id="Icon_feather-share" data-name="Icon feather-share" transform="translate(120.2 535.5)">
+      <path id="Path_76" data-name="Path 76" d="M6,18V34.6a4.15,4.15,0,0,0,4.15,4.15h24.9A4.15,4.15,0,0,0,39.2,34.6V18" transform="translate(0 5.75)" fill="none" stroke="#ffa700" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_77" data-name="Path 77" d="M28.6,11.3,20.3,3,12,11.3" transform="translate(2.3)" fill="none" stroke="#ffa700" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_78" data-name="Path 78" d="M18,3V29.975" transform="translate(4.6)" fill="none" stroke="#ffa700" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <path id="Icon_feather-heart" data-name="Icon feather-heart" d="M43.16,7.885c-4.547-4.549-10.389-5.313-14.781,0l-3.931,6.443L21.025,7.885c-3.47-4.786-10.744-4.548-15.292,0a11.645,11.645,0,0,0,0,16.469L7.978,26.6,24.447,43.066,40.916,26.6l2.244-2.244a11.643,11.643,0,0,0,0-16.469Z" transform="translate(212.677 537.281)" fill="none" stroke="#ffa700" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
