@@ -64,6 +64,7 @@ h1 {
   z-index: 2;
   width: 140px;
   opacity: 0;
+  text-align: center;
 }
 
 #keys {
@@ -74,6 +75,7 @@ h1 {
   z-index: 2;
   width: 80px;
   opacity: 0;
+  text-align: center;
 
 }
 #fieldbook {
@@ -88,6 +90,7 @@ h1 {
   /* margin-top: 45px; */
   /* margin: 15px auto; */
   opacity: 0;
+  text-align: center;
 
 }
 
