@@ -46,8 +46,7 @@ span {
     display: block;
 }
 
-section {
-}
+
 
 div img#buttons {
     position: absolute;
@@ -100,7 +99,7 @@ footer {
     float: left;
     font-family: 'Questrial' , sans-serif;
     padding: 20px;
-     margin-left: 100px; */
+     margin-left: 100px; 
      padding-right: 0;
    
   }
