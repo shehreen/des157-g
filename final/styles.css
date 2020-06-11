@@ -3,17 +3,28 @@
     height: 812px;
     margin:auto;
     position: relative;
-    padding-top: 400px;
+    padding-top: 300px;
     box-sizing: border-box;
     text-align: center;
+    font-family: 'Rubik', sans-serif;
     font-size: 1.5em;
+    color: #FFA700;
+    line-height: 2em;
 
+
+}
+
+#saveshare {
+
+    position: relative;
+    width: 30%;
+    padding-top: 30px;
 }
 
 header img {
     position: relative;
     /* margin:auto; */
-    top: -300px;
+    top: -200px;
     left:-100px;
     width: 100px;
     text-align: center;
@@ -38,13 +49,64 @@ span {
 section {
 }
 
-footer {
-
-}
-
-footer img {
+div img#buttons {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 0px;
+    left: 00px;
+    padding-top: 400px;
+    width: 98%;
 
 }
+
+div img#outline{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 93%;
+
+}
+
+div img#status{
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    width: 90%;
+
+}
+
+
+
+/* fix footer to bottom of page*/
+
+footer {
+    background-color: white;
+    color: orange;
+    margin: auto;
+    font-size: 14px;
+    padding: 10px 30px 5px 10px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+
+
+    
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: orange;
+    float: left;
+    font-family: 'Questrial' , sans-serif;
+    padding: 20px;
+     margin-left: 100px; */
+     padding-right: 0;
+   
+  }
+  
+  footer a:hover {
+    color:grey;
+  }
+
+
