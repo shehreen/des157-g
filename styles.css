@@ -73,6 +73,27 @@ li a:hover {
   color: white;
 }
 
+
+/*--- Visual research ---*/
+
+#visual #yellow {
+  display: none;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 30px;
+ }
+
+ #visual h1 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 3em;
+  color: palevioletred;
+ }
+ 
+
 /*--- Comparative Analysis ---*/
 
 #comparative img {
@@ -104,6 +125,7 @@ li a:hover {
 }
 
 #comparative
+
 
 /*-----FOOTER CONTENT-----*/
 
